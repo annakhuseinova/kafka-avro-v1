@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "namespace": "com.example",
+    "name": "Customer",
+    "version": "1",
+    "fields": [
+        {"name": "first_name", "type": "string", "doc": "First name of the customer"},
+        {"name": "last_name", "type": "string", "doc": "Last Name of customer"},
+        {"name": "automated_email", "type": "boolean", "default": true, "doc": "Field individual"}
+    ]
+}
